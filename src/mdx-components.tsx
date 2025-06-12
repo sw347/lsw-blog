@@ -3,7 +3,12 @@ import type { MDXComponents } from 'mdx/types';
 import { StackBlitzEmbed } from './components/stack-blitz-embed';
 
 export function Heading1(props: React.HTMLAttributes<HTMLHeadingElement>) {
-  return <h1 {...props} className='text-5xl font-bold mb-4' />;
+  return (
+    <h1
+      {...props}
+      className='text-5xl font-bold mb-4 bg-blue-300 p-4 rounded-2xl text-white'
+    />
+  );
 }
 
 export function Heading2(props: React.HTMLAttributes<HTMLHeadingElement>) {
