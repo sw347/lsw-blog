@@ -1,1 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Song+Myung&display=swap');
+
 @import 'tailwindcss';
+
+html {
+  font-family: "Edu NSW ACT Cursive", cursive;
+}
