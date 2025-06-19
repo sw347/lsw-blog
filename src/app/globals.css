@@ -3,5 +3,9 @@
 @import 'tailwindcss';
 
 html {
-  font-family: "Edu NSW ACT Cursive", cursive;
+  /* font-family: "Edu NSW ACT Cursive", cursive; */
+  font-family: '양진체';
+  src: url('https://fastly.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
